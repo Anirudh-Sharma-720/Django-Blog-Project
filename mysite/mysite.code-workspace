@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "mysite",
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.languageServer": "Pylance"
+	}
+}

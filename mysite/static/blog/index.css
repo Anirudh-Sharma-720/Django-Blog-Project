@@ -1,0 +1,155 @@
+#welcome {
+    background: linear-gradient(to right top, #6305dd, #390281);
+    padding: 6rem 12%;
+    
+  }
+  
+  #welcome header {
+    display: flex;
+    align-items: flex-start;
+    margin: 3rem auto;
+  }
+  
+  #welcome img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid white;
+    border-radius: 12px;
+    background-color: #ffe1bf;
+    transform: rotateZ(-5deg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  #welcome h2 {
+    font-size: 3.5rem;
+    margin: 0 0 0 2rem;
+    color: #e4e4e4;
+    width: 10rem;
+  }
+  
+  #welcome p {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  #latest-posts {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 60rem;
+    margin: -6rem auto 2rem auto;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  #latest-posts h2 {
+    text-align: center;
+  }
+  
+  #latest-posts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  #latest-posts li {
+    flex: 1;
+  }
+  
+  #about {
+    text-align: center;
+    padding: 3rem;
+    background-color: #e48900;
+    margin-top: 5rem;
+  }
+  
+  #about h2 {
+    font-size: 3rem;
+  }
+  
+  #about p {
+    font-size: 1.5rem;
+    color: #353535;
+  }
+
+
+
+
+  /* all-posts */
+ 
+
+
+
+
+
+
+  /* post */
+  
+
+
+  /* post-details */
+  body {
+    background-color: #e7e7e7;
+  }
+  
+  #main-navigation {
+    background-color: #390281;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  #summary {
+    margin: 8rem auto 3rem auto;
+    padding: 2rem;
+    width: 90%;
+    max-width: 90rem;
+    border-radius: 16px;
+    background-color: #5706c0;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    height: 22rem;
+  }
+  
+  #summary h2 {
+    color: white;
+    font-size: 4.5rem;
+  }
+  
+  #summary article {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-align: right;
+    color: white;
+  }
+  
+  #summary article img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 12px;
+    transform: rotateZ(5deg);
+    border: 5px solid white;
+    margin-bottom: 1rem;
+  }
+  
+  #summary address {
+    font-weight: bold;
+  }
+  
+  #summary time {
+    font-weight: bold;
+  } 
+  
+  main {
+    width: 90%;
+    max-width: 90rem;
+    margin: 3rem auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
